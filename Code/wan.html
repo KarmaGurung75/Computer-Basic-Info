@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css"
+	href="style.css">
+	<style type="text/css">
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color:white;
+}
+/* Style the header */
+.header {
+  background-image:url(bg1.jpg);
+  padding: 20px;
+  text-align:center;
+  width:100%;
+  height:30vh;
+  color:  #7CFC00;
+  
+  
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color:black;
+  width:100%;
+  
+}
+
+/* Style the topnav links */
+.topnav a {
+  float:left;
+  display: block;
+  text-align: center;
+  padding: 20px 22px;
+  text-decoration: none;
+   color:white;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color:green;
+
+}
+
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  width: 25%;
+  color:tomato;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+  position: relative;
+  display:grid;
+  
+}
+
+/* Middle column */
+.column.middle {
+  width: 75%;
+  color:black;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+.container{
+  max-width:100%;
+  margin:0 auto;
+  background:#f3f9f9;
+  font-size: 24px;
+  padding:25px;
+}
+.parallax{
+  background:url(computer1.jpg) no-repeat center;
+  background-size:cover;
+  background-attachment: fixed;
+  height:500px;
+width:100%;
+}
+
+
+
+	</style>
+</head>
+<body>
+<div class="header">
+  <h1>WELCOME TO THE COMPUTER WORLD</h1>
+  
+</div>
+	<div class="topnav">
+  <a href="home.html">HOME</a>
+  
+  <a href="network.html">NETWORKING</a>
+  
+  <a href="gallary.html">GALLARY</a>
+   
+  <a href="aboutme.html">ABOUT ME</a>
+  
+  <a href="login.html">MORE</a>
+</div>
+<br>
+
+<div class="container">
+
+<div class="row">
+  
+  <div class="column middle">
+    <h2 style="color:green;">WAN (Wide Area Networks) </h2>
+    <p>A wide area network (WAN) is a telecommunication network. A wide area network is simply a LAN of LANs or Network of Networks. WANs connect LANs that may be on opposite sides of a building, across the country or around the world. WANS are characterized by the slowest data communication rates and the largest distances. WANs can be of two types: an enterprise WAN and Global WAN.</p>
+
+    <image src="WAN.jpg"><br>
+
+     <p>Computers connected to a Wide Area Networks are often connected through public networks, such as the telephone system. They can also be connected through leased lines or satellites. The largest WAN in existence is the Internet. Some segments of the Internet, like VPN based extranets, are also WANs in themselves. Finally, many WANs are corporate or research networks that utilize leased lines.<br>
+
+Numerous WANs have been constructed, including public packet networks, large corporate networks, military networks, banking networks, stock brokerage networks, and airline reservation networks.  </p>
+
+  <p>Organizations supporting WANs using the Internet Protocol are known as Network Service Providers (NSPs). These form the core of the Internet.<br>
+
+By connecting the NSP WANs together using links at Internet Packet Interchanges (sometimes called "peering points") a global communication infrastructure is formed.<br>
+
+WANs (wide area networks) generally utilize different and much more expensive networking equipment than do LANs (Local Area Networks). Key technologies often found in WANs (wide area networks) include SONET, Frame Relay, and ATM. </p>
+
+
+<div class="parallax">
+    
+  </div>
+
+  <p><h4>Clarify Enterprise WANs.</h4>
+
+An enterprise WAN (wide area networks) connects an entire organization including all LANs (Local Area Networks) at various sites. This term is used for large, widespread organizations such as corporations, universities and governments. </p>
+  <p><h4>Clarify Global WANs.</h4>
+Global WANs (wide area networks) also span the world but they do not have to connect LANS (Local Area Networks) within a single organization. The Internet is an example of a global WAN. It connects diverse locations, organizations and institutions throughout the world. Global WANS (wide area networks) can be public or private. Private WANs (wide area networks) are called Intranet which belongs to an organization. Public WANs (wide area networks) are open to everybody so that anybody can connect and use the resources and services available. </p>
+
+
+
+  <p><h4>WLANs - Wireless Local Area Networks </h4>
+WLANs (Wireless Local Area Networks or sometimes referred to as LAWN, for local area wireless network) provide wireless network communication over short distances using radio or infrared signals instead of traditional network cabling.WLANs (Wireless Local Area Networks) is one in which a mobile user can connect to a local area network (LAN) through a wireless (radio) connection<br>
+
+Norman Abramson, a professor at the University of Hawaii, developed the world’s first wireless computer communication network.<br>
+
+A WLAN typically extends an existing wired local area network. WLANs (Wireless Local Area Networks) are built by attaching a device called the access point (AP) to the edge of the wired network. Clients communicate with the AP using a wireless network adapter similar in function to a traditional Ethernet adapter. <br>
+
+Network security remains an important issue for WLANs (Wireless Local Area Networks). Random wireless clients must usually be prohibited from joining the WLAN. Technologies like WEP raise the level of security on wireless networks to rival that of traditional wired networks.<br> 
+
+The IEEE 802.11 group of standards specify the technologies for wireless LANs. 802.11 standards use the Ethernet<br>
+
+WLAN (Wireless Local Area Networks) hardware was initially so expensive that it was only used as an alternative to cabled LAN in places where cabling was difficult or impossible.<br>
+
+All components that can connect into a wireless medium in a network are referred to as stations. All stations are equipped with wireless network interface controllers (WNICs). Wireless stations fall into one of two categories: access points, and clients. Access points (APs), normally routers, are base stations for the wireless network.<br>
+
+They transmit and receive radio frequencies for wireless enabled devices to communicate with. Wireless clients can be mobile devices such as laptops, personal digital assistants, IP phones and other smartphones, or fixed devices such as desktops and workstations that are equipped with a wireless network interface.  </p>
+
+
+  <h2>WLAN (Wireless Local Area Networks) types </h2>
+<p><h4>Private home or small business WLAN</h4>
+
+Commonly, a home or business WLAN employs one or two access points to broadcast a signal around a 100- to 200-foot radius. You can find equipment for installing a home WLAN in many retail stores.<br>
+
+With few exceptions, hardware in this category subscribes to the 802.11a, b, or g standards (also known as Wi-Fi); some home and office WLANs now adhere to the new 802.11n standard. Also, because of security concerns, many home and office WLANs adhere to the Wi-Fi Protected Access 2 (WPA2) standard. </p>
+
+
+  <p><h4> Enterprise class WLAN</h4>
+
+An enterprise class WLAN employs a large number of individual access points to broadcast the signal to a wide area. The access points have more features than home or small office WLAN equipment, such as better security, authentication, remote management, and tools to help integrate with existing networks. These access points have a larger coverage area than home or small office equipment, and are designed to work together to cover a much larger area. This equipment can adhere to the 802.11a, b, g, or n standard, or to security-refining standards, such as 802.1x and WPA2.<br>
+
+<b>Examples:</b>
+
+For WLANs that connect to the Internet, Wireless Application Protocol (WAP) technology allows Web content to be more easily downloaded to a WLAN and rendered on wireless clients like cell phones and PDAs. </p>
+
+
+  <p><h4>Storage Area Network (SAN)</h4>
+
+A storage area network (SAN) is a type of local area network (LAN) is a high-speed special-purpose network. A SAN typically supports data storage, retrieval and replication on business networks using high-end servers, multiple disk arrays and Fibre Channel interconnection technology.<br>
+
+<h4>Storage Area Networks (SANs)</h4>
+ Storage Area Networks (SANs) technology is similar but distinct from network attached storage (NAS) technology. While SANs traditionally employ low-level network protocols for transferring disk blocks, a NAS device typically works over TCP/IP and can be integrated fairly easily into home computer networks. he term SAN can sometimes refer to system area networks instead of a storage area network. System area networks are clusters of high performance computers used for distributed processing applications requiring fast local network performance. Storage area networks, on the other, are designed specifically for data management.<br>
+
+SANs support disk mirroring, backup and restore, archival and retrieval of archived data, data migration from one storage device to another and the sharing of data among different servers in a network. SANs can incorporate sub networks with network attached storage (NAS) systems. </p>
+
+
+  <p><b>Storage Area Networks Make Your Life Easier</b>
+
+Simplification of Storage Administration is now possible because of Storage Area Networks cause cables and storage devices doesn’t need to be moved physically. Moving data from one server into another is now a breeze. Thanks to Storage Area Networks. Life is much easier.<br>
+
+Before, storage area networks process can take as little as half an hour. But this was before and now we can accelerate it.<br>
+
+The boo-table features of Storage Area Networks can also be effective and enable during recovery of data because of certain disaster such as server failure or human error. Storage area networks are great tools in recovering important data and back ups. Distant location doesn’t effect the storage area networks as long as the secondary storage array is working.<br>
+
+This enables storage replication either implemented by disk array controllers, by server software, or by specialized SAN devices. Since IP WAN’s are often the least costly method of long-distance transport, the Fibre Channel over IP (FCIP) and iSCSI protocols have been developed to allow SAN extension over IP networks.<br>
+
+In the old model like in physical SCSI layer, it supported a few meters of distance and no guarantee of business continuity when disaster strike.In storage area networks, the disk arrays has accelerated and consolidated in the features like I/O caching, volume cloning and snap shotting making business continuance possible or BCV’s (Business Continuance Volumes). </p>
+
+
+  <p><h4>Campus Area Network (CAN) </h4>
+
+A campus area networks (CANs) is a computer network interconnecting a few local area networks (LANs) within a university campus or corporate campus Network.Campus area network may link a variety of campus buildings.A campus area network is larger than a local area network but smaller than a metropolitan area network (MAN) or wide area network (WAN). CAN can also stand for corporate area network.  </p>
+
+  <p><h4>Personal Area Network (PAN)</h4>
+
+A personal area network is a computer network organized around an individual person. Personal area networks typically involve a mobile computer,Personal area networks can be constructed with cables or wirelessly.Personal area networks generally cover a Network range of less than 10 meters (about 30 feet). 
+PAN (Personal Area Network) first was developed by Thomas Zimmerman and other researchers at M.I.T.'s Media Lab and later supported by IBM's Almaden research lab.</p>
+
+  <p><h4>Wireless Personal Area Network (WPAN)</h4>
+
+which is virtually a synonym since almost any personal area network would need to function wirelessly. Conceptually, the difference between a PAN ( personal area network ) and a wireless LAN ( Local Area Network) is that the former tends to be centered around one person Network while the latter is a local area network (LAN) that is connected without wires Network and serving multiple users. </p>
+
+  <p><h4>Wireless Networks</h4>
+
+• The fastest growing segment of the computer industry is the mobile computers such as notebook computers and personal digital assistant (PDAs).<br>
+
+• The wireless networks are becoming increasingly important because the wired connection is not possible in cars or aero planes.<br>
+
+• Wireless networks can have many applications. A very common example is the portable office.<br>
+
+• People traveling on road often want to make use of their portable electronic equipment for telephone calls, e-mails, faxes, read remote files etc.<br>
+
+• Wireless networks can exist on trucks, buses, taxies, aero planes etc. They are used where the telephone systems are destroyed in the event of disasters such as. fires, floods and earthquakes etc.<br>
+
+• The wireless networks are important for military.<br>
+
+• Wireless networks and mobile computing are related but they are not identical because portable computers are sometimes wired and some wireless computers are not portable.<br>
+
+• But some applications are truly mobile wireless applications such as a portable office, inventories being handled by PDAs, etc.<br>
+
+• Wireless LAN is another example of wireless network. Direct digital cellular service CDPD (Cellular Digital Packet Data) is now becoming available:<br>
+
+• It is possible to have combinations of wired and wireless networking.</p>
+
+<a href="network.html">BACK</a>
+
+  </div>
+  
+  <div class="column side">
+  	<h2>RELATED ARTICLES</h2>
+  <a href="TYPES.HTML">TYPES OF COMPUTERS</a><br>
+  <a href="uses.html">USES OF COMPUTER</a><br>
+  <a href="mini.html">WHAT IS MINI COMPUTERS?</a><br>
+  <a href="cprogram.html">C LANGUAGES</a><br>
+  <a href="character.html">CHARATERISTIC OF COMPUTER</a><br>
+  <a href="history.html">HISTORY OF COMPUTER</a><br>
+  <a href="internet.html">INTERNET</a><br>
+  <a href="virus.html">WHAT IS VIRUS</a><br>
+  </div>
+  <div class="column side">
+    </div>
+
+</div>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css"
+	href="style.css">
+	<style type="text/css">
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color:white;
+}
+/* Style the header */
+.header {
+  background-image:url(net1.jpeg);
+  padding: 20px;
+  text-align:center;
+  width:100%;
+  height:30vh;
+  color:#F0FFFF;
+   font-size:40px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color:black;
+  width:100%;
+  
+}
+
+/* Style the topnav links */
+.topnav a {
+  float:left;
+  display: block;
+  text-align: center;
+  padding: 20px 22px;
+  text-decoration: none;
+   color:white;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color:green;
+
+}
+
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  width: 25%;
+  color:tomato;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+  position: relative;
+  display:grid;
+}
+
+/* Middle column */
+.column.middle {
+  width: 75%;
+  color:black;
+  background-color:#FFF0F5;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+.container{
+  max-width:100%;
+  margin:0 auto;
+  background:#f3f9f9;
+  font-size: 24px;
+  padding:25px;
+}
+.parallax{
+  background:url(bg13.jpg) no-repeat center;
+  background-size:cover;
+  background-attachment: fixed;
+  height:500px;
+  width:100%;
+}
+
+
+	</style>
+</head>
+<body>
+<div class="header"><marquee direction=center behaivor=scroll scrollamount=10 loop=100x>
+   <h1>WELCOME TO THE COMPUTER WORLD</h1>
+  </marquee>
+</div>
+	<div class="topnav">
+  <a href="home.html">HOME</a>
+  
+  <a href="network.html">NETWORKING</a>
+  
+  <a href="gallary.html">GALLARY</a>
+   
+  <a href="aboutme.html">ABOUT US</a>
+  
+  <a href="login.html">MORE</a>
+</div>
+<br>
+
+<div class="container">
+
+<div class="row">
+  
+  <div class="column middle">
+    <h2 style="color:green;">What is Network?</h2>
+    <p><b>Computer Networks</b> fall into three classes regarding the size, distance and the structure namely: LAN (Local Area Network), MAN (Metropolitan Area Network), WAN (Wide Area Network). Before we discussing about type of network we can discuss about what is a network.</p>
+
+    
+    <p>In the today world, Two devices are in network if a process in one device is able to exchange information with a process in another device. Networks are known as a medium of connections between nodes (set of devices) or computers. A network is consist of group of computer systems, servers, networking devices are linked together to share resources, including a printer or a file server. The connections is established by using either cable media or wireless media.  </p><br>
+
+    <div class="parallax">
+    
+  </div>
+
+    <h2 style="color:green;">Types of Network</h2>
+  <image src="network.jpg"><br>
+   <h4> LAN (Local Area Network)</h4>
+     <p>A Local Area Network is a privately owned computer network covering a small Networks geographical area, like a home, office, or groups of buildings e.g. a school Network. A LAN is used to connect the computers and other network devices so that the devices can communicate with each other to share the resources. The resources to be shared can be a hardware device like printer, software like an application program or data. The size of LAN is usually small. The various devices in LAN are connected to central devices called Hub or Switch using a cable.<a href="lan.HTML">Read More</a><br> </p>
+
+    <h4> MAN (Metropolitan Area Networks)</h4>
+    <p>MAN stands for Metropolitan Area Networks is one of a number of types of networks. A MAN is a relatively new class of network. MAN is larger than a local area network and as its name implies, covers the area of a single city. MANs rarely extend beyond 100 KM and frequently comprise a combination of different hardware and transmission media. It can be single network such as a cable TV network, or it is a means of connecting a number of LANs into a larger network so that resources can be shared LAN to LAN as well as device to device.<a href="man.HTML">Read More</a><br> </p>
+
+
+
+     <h4> WAN (Wide Area Networks) </h4>
+      <p>A wide area network (WAN) is a telecommunication network. A wide area network is simply a LAN of LANs or Network of Networks. WANs connect LANs that may be on opposite sides of a building, across the country or around the world. WANS are characterized by the slowest data communication rates and the largest distances. WANs can be of two types: an enterprise WAN and Global WAN.<a href="wan.HTML">Read More</a><br> </p>
+
+
+
+  </div>
+  
+  <div class="column side">
+  	<h2>RELATED ARTICLES</h2>
+  <a href="TYPES.HTML">TYPES OF COMPUTERS</a><br>
+  <a href="uses.html">USES OF COMPUTER</a><br>
+  <a href="mini.html">WHAT IS MINI COMPUTERS?</a><br>
+  <a href="cprogram.html">C LANGUAGES</a><br>
+  <a href="character.html">CHARATERISTIC OF COMPUTER</a><br>
+  <a href="history.html">HISTORY OF COMPUTER</a><br>
+  <a href="internet.html">INTERNET</a><br>
+  <a href="virus.html">WHAT IS VIRUS</a><br>
+  </div>
+  <div class="column side">
+    </div>
+</div>
+</div>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css"
+	href="style.css">
+	<style type="text/css">
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color:white;
+}
+/* Style the header */
+.header {
+  background-image:url(cbg1.jpeg);
+  padding: 20px 50px;
+  text-align:center;
+  width:100%;
+  height:40vh;
+  color:#98FB98;
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color:black;
+  width:100%;
+  
+}
+
+/* Style the topnav links */
+.topnav a {
+  float:left;
+  display: block;
+  text-align: center;
+  padding: 20px 22px;
+  text-decoration: none;
+   color:white;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color:green;
+
+}
+
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  width: 25%;
+  color:tomato;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+  text-decoration: none;
+  position: relative;
+  display:grid;
+  
+  
+}
+
+/* Middle column */
+.column.middle {
+  width: 75%;
+  color:black;
+  background:#AFEEEE;
+  text-decoration: none;
+  color:black;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+.container{
+  max-width:100%;
+  margin:0 auto;
+  background:#f3f9f9;
+  font-size: 24px;
+  padding:25px;
+}
+.parallax{
+  background:url(cbg.jpeg) no-repeat center;
+  background-size:cover;
+  background-attachment: fixed;
+  height:500px;
+width:100%;
+}
+
+
+	</style>
+</head>
+<body>
+<div class="header"><marquee direction=center behaivor=scroll scrollamount=10 loop=100x>
+   <h1>WELCOME TO THE COMPUTER WORLD</h1>
+  </marquee>
+</div>
+	<div class="topnav">
+  <a href="home.html">HOME</a>
+  
+  <a href="network.html">NETWORKING</a>
+  
+  <a href="gallary.html">GALLARY</a>
+   
+  <a href="aboutme.html">ABOUT US</a>
+  
+  <a href="login.html">MORE</a>
+</div>
+<br>
+
+<div class="container">
+
+<div class="row">
+  
+  <div class="column middle">
+    <h2 style="color:green;">History of C? Why we use C programming language </h2>
+    <p>Martin Richards developed a high-level computer language called BCPL in the year 1967. The intention was to develop a language for writing an operating system (OS). As you know an OS is software which controls the various processes in a computer system. This language was later improved by Ken Thompson and he gave it a new name B. The basic ideas about some topics such as arrays, etc., which were later inherited by C were developed in BCPL and B. In those days, the development of computers was in infancy. One of the serious constraints experienced while developing the language B was the small computer memory available at that time.<br><br>
+
+C  is  a  general purpose  computer  programming  language  developed  in  1972  by Dennis  Ritchie  at  the  Bell  Telephone  Laboratories  for  use  with  the  Unix  operating system.  It was named 'C' because many of its features were derived from an earlier language called 'B'.<br><br>
+
+Many of the ideas of structure of C language were taken from BCPL and B. Ritchie has given an excellent exposition of the problems experienced during development of C in his lecture entitled "The Development of the C Language". <br><br>
+
+Although  C  was  designed  for  implementing  system  software,  it  is  also  widely used  for  developing  portable  application  software.  <br><br>
+
+The earlier C was also called B with types though many ideas were also borrowed from ALGOL 68. A second phase of developments in C came in during the years 1977-1979. C became popular because of the success of UNIX system which was largely written in C and which could be used on different types of computers. C is a structured high-level language. Programs written in C are easy to write and debug as well as portable. The programs written in C are quite efficient. However, the code written in C language needs a compiler to convert different instructions and data into machine language.<br><br>
+
+C  is  one  of  the  most  popular  programming  languages  of  all  time  and  there  are  very  few  computer  architectures  for  which  say  C  compiler  does  not  exist.  C  has  greatly  influenced  many  other  popular  programming  languages,  most  notably  C++,  which  began  as  an  extension  to  C. <br><br> 
+
+C is an imperative (procedural) systems implementation language. It was designed to be compiled using a relatively straightforward compiler, to provide low-level access to memory, to provide language constructs that map efficiently to machine instructions, and to require minimal run-time support. C was therefore useful for many applications that had formerly been coded in assembly language. </p><br>
+
+    <div class="parallax">
+    
+  </div>
+
+     <p>Despite its low-level capabilities, the language was designed to encourage cross-platform programming. A standards-compliant and portably written C program can be compiled for a very wide variety of computer platforms and operating systems with few changes to its source code. The language has become available on a very wide range of platforms, from embedded microcontrollers to supercomputers.<br><br>
+C's design is tied to its intended use as a portable systems implementation language. It provides simple, direct access to any addressable object (for example, memory-mapped device control registers), and its source-code expressions can be translated in a straightforward manner to primitive machine operations in the executable code.<br><br>
+
+A large number of researchers have contributed to the development of C. For example, Lesk wrote a portable input/output package which was later modified to become C standard I/O routines. In 1978, Brian Kernighan and Ritchie authored a book entitled "The C Programming Language", which gave the basic framework of C and remained a reference book for many years. However, in a few years following the publication of the book, the language in actual use was developed much beyond the book. It was felt that it needed formal standardization. In the year 1983, ANSI established a committee called X3J11, for the purpose. The committee produced a report (ANSI 89) towards the end of 1989. The report was accepted by ISO and became the standard ISO/IEC 9899-1990, Programming Language - C. The language according to standard is also called C-90.<br><br>
+
+The standardization gave another push to the development process of the language. During the same period (1983-85) another language, C++, was developed by Bjarne Stroustrup. The concept of classes was introduced into C to make it an object-oriented programming language and a new name C++ was given to the language. Some of the features introduced in C++ certainly give an advantage over the version of C-90. However, in 1999 it was again felt that C needs another revision because many new developments had taken place as well as problems with the standard became clear. A revised standard was accepted by ISO in 1999. New keywords and header files were included in the language. This document is known as ISO/IEC 9899-1999, Programming language - C. The language according to this standard is known as C-99. It is in vogue at present though many compilers are yet to be revised to the new standard and still follow C-90 language. The development of C is also illustrated in Fig. </p>
+
+ <image src="c.jpg">
+
+       <h2 style="color:green;">Characteristics:</h2>
+       <p>Like most imperative languages in the ALGOL tradition, C has facilities for structured programming and allows lexical variable scope and recursion, while a static type system prevents many unintended operations. In C, all executable code is contained within functions. Function parameters are always passed by value. Pass-by-reference is simulated in C by explicitly passing pointer values.<br><br>
+
+Heterogeneous aggregate data types (struct) allow related data elements to be combined and manipulated as a unit. C program source text is free-format, using the semicolon as a statement terminator. </p><br>
+
+       <h2 style="color:green;">C also exhibits the following more specific characteristics:</h2>
+       <p>Variables may be hidden in nested blocks Partially weak typing. for instance, characters can be used as integers. Low-level access to computer memory by converting machine addresses to typed pointers Function and data pointers supporting ad hoc run-time polymorphism array indexing as a secondary notion, defined in terms of pointer arithmetic.<br><br>
+
+A preprocessor for macro definition, source code file inclusion, and conditional compilation Complex functionality such as I/O, string manipulation, and mathematical functions consistently delegated to library routines A relatively small set of reserved keywords A large number of compound operators, such as +=, -=, *=, ++ etc. </p>
+        
+
+
+
+  </div>
+  
+  <div class="column side">
+  	<h2>RELATED ARTICLES</h2>
+  <a href="TYPES.HTML">TYPES OF COMPUTERS</a><br>
+  <a href="uses.html">USES OF COMPUTER</a><br>
+  <a href="mini.html">WHAT IS MINI COMPUTERS?</a><br>
+  <a href="cprogram.html">C LANGUAGES</a><br>
+  <a href="character.html">CHARATERISTIC OF COMPUTER</a><br>
+  <a href="history.html">HISTORY OF COMPUTER</a><br>
+  <a href="internet.html">INTERNET</a><br>
+  <a href="virus.html">WHAT IS VIRUS</a><br>
+  </div>
+  <div class="column side">
+    </div>
+</div>
+</div>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+</div>
+</body>
+</html>

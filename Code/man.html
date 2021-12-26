@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css"
+	href="style.css">
+	<style type="text/css">
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color:white;
+}
+/* Style the header */
+.header {
+  background-image:url(bg1.jpg);
+  padding: 20px;
+  text-align:center;
+  width:100%;
+  height:30vh;
+  color:  #7CFC00;
+  
+  
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color:black;
+  width:100%;
+  
+}
+
+/* Style the topnav links */
+.topnav a {
+  float:left;
+  display: block;
+  text-align: center;
+  padding: 20px 22px;
+  text-decoration: none;
+   color:white;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color:green;
+
+}
+
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  width: 25%;
+  color:tomato;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+  position: relative;
+  display:grid;
+  
+}
+
+/* Middle column */
+.column.middle {
+  width: 75%;
+  color:black;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+
+	</style>
+</head>
+<body>
+<div class="header">
+  <h1>WELCOME TO THE COMPUTER WORLD</h1>
+  
+</div>
+	<div class="topnav">
+  <a href="home.html">HOME</a>
+  
+  <a href="network.html">NETWORKING</a>
+  
+  <a href="gallary.html">GALLARY</a>
+   
+  <a href="aboutme.html">ABOUT ME</a>
+  
+  <a href="login.html">MORE</a>
+</div>
+<br>
+
+
+
+<div class="row">
+  
+  <div class="column middle">
+    <h2 style="color:green;">MAN (Metropolitan Area Networks)</h2>
+    <p>MAN stands for Metropolitan Area Networks is one of a number of types of networks. A MAN is a relatively new class of network. MAN is larger than a local area network and as its name implies, covers the area of a single city. MANs rarely extend beyond 100 KM and frequently comprise a combination of different hardware and transmission media. It can be single network such as a cable TV network, or it is a means of connecting a number of LANs into a larger network so that resources can be shared LAN to LAN as well as device to device.</p>
+
+    <image src="man.jpg"><br>
+
+     <p>A MAN can be created as a single network such as Cable TV Network, covering the entire city or a group of several Local Area Networks (LANs). It this way resource can be shared from LAN to LAN and from computer to computer also. MANs are usually owned by large organizations to interconnect its various branches across a city.<br>
+
+MAN is based on IEEE 802.6 standard known as DQDB (Distributed Queue Dual Bus). DQDB uses two unidirectional cables (buses) and all the computers are connected to these two buses. Each bus has a specialized device that initiates the transmission activity. This device is called head end. Data that is to be sent to the computer on the right hand side of the sender is transmitted on upper bus. Data that is to be sent to the left hand side of the sender is transmitted on lower bus. </p>
+
+   <image src="man2.jpg"><br>
+
+    
+    <p>The two most important components of MANs are security and standardization. Security is important because information is being shared between dissimilar systems. Standardization is necessary to ensure reliable data communication.<br>
+
+A MAN usually interconnects a number of local area networks using a high-capacity backbone technology, such as fiber-optical links, and provides up-link services to wide area networks and the Internet.<br>
+
+The Metropolitan Area Networks (MAN) protocols are mostly at the data link level (layer 2 in the OSI model), which are defined by IEEE, ITU-T, etc. </p>
+<a href="network.html">BACK</a>
+
+  </div>
+  
+  <div class="column side">
+  	<h2>RELATED ARTICLES</h2>
+  <a href="TYPES.HTML">TYPES OF COMPUTERS</a><br>
+  <a href="uses.html">USES OF COMPUTER</a><br>
+  <a href="mini.html">WHAT IS MINI COMPUTERS?</a><br>
+  <a href="cprogram.html">C LANGUAGES</a><br>
+  <a href="character.html">CHARATERISTIC OF COMPUTER</a><br>
+  <a href="history.html">HISTORY OF COMPUTER</a><br>
+  <a href="internet.html">INTERNET</a><br>
+  <a href="virus.html">WHAT IS VIRUS</a><br>
+  </div>
+  <div class="column side">
+    </div>
+
+</div>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css"
+	href="style.css">
+	<style type="text/css">
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color:white;
+}
+/* Style the header */
+.header {
+  background-image:url(character.jpeg);
+  padding: 20px 50px;
+  text-align:center;
+  width:100%;
+  height:40vh;
+  color:#00FFFF;
+  font-size: 40px;
+  
+  
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color:black;
+  width:100%;
+  
+}
+
+/* Style the topnav links */
+.topnav a {
+  float:left;
+  display: block;
+  text-align: center;
+  padding: 20px 22px;
+  text-decoration: none;
+   color:white;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color:green;
+
+}
+
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  width: 25%;
+  color:tomato;
+}
+
+/* Left and right column */
+.column.side {
+ width: 25%;
+  text-decoration: none;
+  position: relative;
+  display:grid;
+  background-color:#FFDEAD;
+}
+
+/* Middle column */
+.column.middle {
+  width: 75%;
+  color:black;
+  background:#F0FFF0;
+  text-decoration: none;
+  color:black;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+.container{
+  max-width:100%;
+  margin:0 auto;
+  background:#F0FFF0;
+  font-size: 24px;
+  padding:25px;
+}
+.parallax{
+  background:url(character.jpeg) no-repeat center;
+  background-size:cover;
+  background-attachment: fixed;
+  height:500px;
+width:100%;
+}
+
+
+	</style>
+</head>
+<body>
+<div class="header"><marquee direction=center behaivor=scroll scrollamount=10 loop=100x>
+   <h1>WELCOME TO THE COMPUTER WORLD</h1>
+  </marquee>
+</div>
+	<div class="topnav">
+  <a href="home.html">HOME</a>
+  
+  <a href="#">NETWORKING</a>
+  
+  <a href="gallary.html">GALLARY</a>
+   
+  <a href="aboutme.html">ABOUT US</a>
+  
+  <a href="login.html">MORE</a>
+</div>
+<br>
+
+<div class="container">
+
+<div class="row">
+  
+  <div class="column middle">
+    <h2 style="color:green;">Characteristic of a Computer:</h2>
+    <p><b>Basic characteristics about computer are:</b></p>
+    <p><b>1. Speed:</b> - As you know computer can work very fast. It takes only few seconds for calculations that we take hours to complete. You will be surprised to know that computer can perform millions (1,000,000) of instructions and even more per second.
+
+Therefore, we determine the speed of computer in terms of microsecond (10-6 part of a second) or nanosecond (10 to the power -9 part of a second). From this you can imagine how fast your computer performs work. </p>
+    <p><b>2. Accuracy:</b> - The degree of accuracy of computer is very high and every calculation is performed with the same accuracy. The accuracy level is 7. Determined on the basis of design of computer. The errors in computer are due to human and inaccurate data. </p>
+    <p><b>3. Diligence: </b>- A computer is free from tiredness, lack of concentration, fatigue, etc. It can work for hours without creating any error. If millions of calculations are to be performed, a computer will perform every calculation with the same accuracy. Due to this capability it overpowers human being in routine type of work. </p>
+    <p><b>4. Versatility:</b> - It means the capacity to perform completely different type of work. You may use your computer to prepare payroll slips. Next moment you may use it for inventory management or to prepare electric bills.</p>
+    
+
+
+    <div class="parallax">
+    
+  </div>
+      <p><b>5. Power of Remembering:</b> - Computer has the power of storing any amount of information or data. Any information can be stored and recalled as long as you require it, for any numbers of years. It depends entirely upon you how much data you want to store in a computer and when to lose or retrieve these data.  </p>
+
+       <p><b>6. No IQ:</b> - Computer is a dumb machine and it cannot do any work without instruction from the user. It performs the instructions at tremendous speed and with accuracy. It is you to decide what you want to do and in what sequence. So a computer cannot take its own decision as you can. </p>
+
+        <p><b>7. No Feeling:</b> - It does not have feelings or emotion, taste, knowledge and experience. Thus it does not get tired even after long hours of work. It does not distinguish between users. </p>
+
+         <p><b>8. Storage:</b> - The Computer has an in-built memory where it can store a large amount of data. You can also store data in secondary storage devices such as floppies, which can be kept outside your computer and can be carried to other computers.</p>
+  </div>
+  
+  <div class="column side">
+  	<h2>RELATED ARTICLES</h2>
+  <a href="TYPES.HTML">TYPES OF COMPUTERS</a><br>
+  <a href="uses.html">USES OF COMPUTER</a><br>
+  <a href="mini.html">WHAT IS MINI COMPUTERS?</a><br>
+  <a href="cprogram.html">C LANGUAGES</a><br>
+  <a href="character.html">CHARATERISTIC OF COMPUTER</a><br>
+  <a href="history.html">HISTORY OF COMPUTER</a><br>
+  <a href="internet.html">INTERNET</a><br>
+  <a href="virus.html">WHAT IS VIRUS</a><br>
+  </div>
+  <div class="column side">
+    </div>
+</div>
+</div>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+</div>
+</body>
+</html>

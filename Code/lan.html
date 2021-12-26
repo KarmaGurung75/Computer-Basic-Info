@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css"
+	href="style.css">
+	<style type="text/css">
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color:white;
+}
+/* Style the header */
+.header {
+  background-image:url(bg1.jpg);
+  padding: 20px;
+  text-align:center;
+  width:100%;
+  height:30vh;
+  color:  #7CFC00;
+  
+  
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color:black;
+  width:100%;
+  
+}
+
+/* Style the topnav links */
+.topnav a {
+  float:left;
+  display: block;
+  text-align: center;
+  padding: 20px 22px;
+  text-decoration: none;
+   color:white;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color:green;
+
+}
+
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  width: 25%;
+  color:tomato;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+  position: relative;
+  display:grid;
+  
+}
+
+/* Middle column */
+.column.middle {
+  width: 75%;
+  color:black;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+.container{
+  max-width:100%;
+  margin:0 auto;
+  background:#f3f9f9;
+  font-size: 24px;
+  padding:25px;
+}
+.parallax{
+  background:url(computer1.jpg) no-repeat center;
+  background-size:cover;
+  background-attachment: fixed;
+  height:500px;
+width:100%;
+}
+
+
+	</style>
+</head>
+<body>
+<div class="header">
+  <h1>WELCOME TO THE COMPUTER WORLD</h1>
+  
+</div>
+	<div class="topnav">
+  <a href="home.html">HOME</a>
+  
+  <a href="network.html">NETWORKING</a>
+  
+  <a href="gallary.html">GALLARY</a>
+   
+  <a href="aboutme.html">ABOUT ME</a>
+  
+  <a href="login.html">MORE</a>
+</div>
+<br>
+
+<div class="container">
+
+<div class="row">
+  
+  <div class="column middle">
+    <h2 style="color:green;">LAN (Local Area Network)</h2>
+    <p>A Local Area Network is a privately owned computer network covering a small Networks geographical area, like a home, office, or groups of buildings e.g. a school Network. A LAN is used to connect the computers and other network devices so that the devices can communicate with each other to share the resources. The resources to be shared can be a hardware device like printer, software like an application program or data. The size of LAN is usually small. The various devices in LAN are connected to central devices called Hub or Switch using a cable.
+
+Now-a-days LANs are being installed using wireless technologies. Such a system makes use of access point or APs to transmit and receive data. One of the computers in a network can become a server serving all the remaining computers called Clients. 
+
+For example, a library will have a wired or wireless LAN Network for users to interconnect local networking devices e.g., printers and servers to connect to the internet.
+
+LAN offers high speed communication of data rates of 4 to 16 megabits per second (Mbps). IEEE has projects investigating the standardization of 100 Gbit/s, and possibly 40 Gbit/s. LANs Network may have connections with other LANs Network via leased lines, leased services.   </p><br>
+
+    <div class="parallax">
+    
+  </div>
+
+    
+   <h4>Types of LAN</h4>
+     <p>There are basically two types of Local Area Networks namely: ARCnet and Ethernet.</p>
+
+    <h4>ARCNET (Attached Resource Computer NETwork) </h4>
+    <p>ARCNET is one of the oldest, simplest, and least expensive types of Local-Area Network protocol, similar in purpose to Ethernet or Token Ring. ARCNET was the first widely available networking system for microcomputers and became popular in the 1980s for office automation tasks. ARCnet was introduced by Datapoint Corporation in 1977.  
+
+A special advantage of ARCNET is that it permits various types of transmission media - twisted-pair wire, coaxial cable, and fiber optic cable - to be mixed on the same network. The specification is ANSI 878.1. It can have up to 255 nodes per network.
+
+A new specification, called ARCnet Plus, will support data rates of 20 Mbps </p>
+
+
+
+     <h4> Ethernet  </h4>
+      <p>Ethernet is a family of computer networking technologies for local area networks commercially introduced in 1980. Standardized in IEEE 802.3, Ethernet has largely replaced competing wired local area network technologies. Ethernet uses a bus or star topology Network and supports data transfer rates of 10 Mbps.
+
+Ethernet Network uses the CSMA/CD access method to handle simultaneous demands. It is one of the most widely implemented LAN standards. A newer version of Ethernet Network, called 100Base-T (or Fast Ethernet), supports data transfer rates of 100 Mbps.
+
+And the newest version, Gigabit Ethernet supports data rates of 1 gigabit (1,000 megabits) per second. Ethernet is a physical and data link layer technology for local area networks (LANs). Ethernet Network was invented by engineer Robert Metcalfe.  </p>
+
+<a href="network.html">BACK</a>
+
+  </div>
+  
+  <div class="column side">
+  	<h2>RELATED ARTICLES</h2>
+  <a href="TYPES.HTML">TYPES OF COMPUTERS</a><br>
+  <a href="uses.html">USES OF COMPUTER</a><br>
+  <a href="mini.html">WHAT IS MINI COMPUTERS?</a><br>
+  <a href="cprogram.html">C LANGUAGES</a><br>
+  <a href="character.html">CHARATERISTIC OF COMPUTER</a><br>
+  <a href="history.html">HISTORY OF COMPUTER</a><br>
+  <a href="internet.html">INTERNET</a><br>
+  <a href="virus.html">WHAT IS VIRUS</a><br>
+  </div>
+  <div class="column side">
+    </div>
+</div>
+</div>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+</div>
+</body>
+</html>

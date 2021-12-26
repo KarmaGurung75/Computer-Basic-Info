@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css"
+  href="style.css">
+  <style type="text/css">
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background:#E0FFFF;
+}
+/* Style the header */
+.header {
+  background-image:url(bg15.jpeg);
+  padding: 20px 50px;
+  text-align:center;
+  width:100%;
+  height:30vh;
+  color:  #000080;
+  font-size: 30px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  
+  background-color:black;
+  width:100%;
+  
+}
+
+/* Style the topnav links */
+.topnav a {
+  float:left;
+  display: block;
+  text-align: center;
+  padding: 20px 22px;
+  text-decoration: none;
+   color:white;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color:green;
+
+}
+
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  width: 25%;
+  color:tomato;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+  text-decoration: none;
+  display:grid;
+  position: relative;
+  
+}
+
+/* Middle column */
+.column.middle {
+  width: 75%;
+  color:black;
+  background: rgba(76, 175, 80, 0.1);
+  text-decoration: none;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+    text-decoration: none;
+  }
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+  </style>
+</head>
+<body><div class="header"><marquee direction=center behaivor=scroll scrollamount=10 loop=100x>
+   <h1>WELCOME TO THE COMPUTER WORLD</h1>
+  </marquee>
+</div>
+  <div class="topnav">
+  <a href="home.html">HOME</a>
+  
+  <a href="network.html">NETWORKING</a>
+  
+  <a href="gallary.html">GALLARY</a>
+   
+  <a href="aboutme.html">ABOUT US</a>
+  
+  <a href="login.html">MORE</a>
+</div>
+<br>
+<div class="row">
+  
+  <div class="column middle">
+    <h2 style="color:green;">CLASSIFICATION OF COMPUTER</h2>
+    <p>Computers differ based on their data processing abilities. They are classified according to purpose, data handling and functionality.</p>
+
+ <p>According to purpose, computers are either general purpose or specific purpose. General purpose computers are designed to perform a range of tasks. They have the ability to store numerous programs, but lack in speed and efficiency. Specific purpose computers are designed to handle a specific problem or to perform a specific task. A set of instructions is built into the machine.</p>
+
+<p>According to data handling, computers are analog, digital or hybrid. Analog computers work on the principle of measuring, in which the measurements obtained are translated into data. Modern analog computers usually employ electrical parameters, such as voltages, resistances or currents, to represent the quantities being manipulated. Such computers do not deal directly with the numbers. They measure continuous physical magnitudes. Digital computers are those that operate with information, numerical or otherwise, represented in a digital form. Such computers process data into a digital value (in 0s and 1s). They give the results with more accuracy and at a faster rate. Hybrid computers incorporate the measuring feature of an analog computer and counting feature of a digital computer. For computational purposes, these computers use analog components and for storage, digital memories are used. </p><br><br>
+  
+
+<h2 style="color:green;">ON THE BASIS OF SIZE</h2>
+<H3>SUPER COMPUTER</H3>
+<p>The fastest and most powerful type of computer Supercomputers are very expensive and are employed for specialized applications that require immense amounts of mathematical calculations. For example, weather forecasting requires a supercomputer. Other uses of supercomputers include animated graphics, fluid dynamic calculations, nuclear energy research, and petroleum exploration.
+
+The chief difference between a supercomputer and a mainframe is that a supercomputer channels all its power into executing a few programs as fast as possible, whereas a mainframe uses its power to execute many programs concurrently. <a href="#">MORE</a></p>
+<H3>MAINFRAME COMPUTER</H3>
+<p>A very large and expensive computer capable of supporting hundreds, or even thousands, of users simultaneously. In the hierarchy that starts with a simple microprocessor (in watches, for example) at the bottom and moves to supercomputers at the top, mainframes are just below supercomputers. In some ways, mainframes are more powerful than supercomputers because they support more simultaneous programs. But supercomputers can execute a single program faster than a mainframe.<a href="#">MORE</a> </p>
+<H3>MINI COMPUTER</H3>
+<p>A midsized computer. In size and power, minicomputers lie between workstations and mainframes. In the past decade, the distinction between large minicomputers and small mainframes has blurred, however, as has the distinction between small minicomputers and workstations. But in general, a minicomputer is a multiprocessing system capable of supporting from 4 to about 200 users simultaneously.<a href="#">MORE</a></p>
+<H3>MACRO COMPUTER</H3>
+<p>• Desktop Computer: a personal or micro-mini computer sufficient to fit on a desk.</p>
+
+<p>• Laptop Computer: a portable computer complete with an integrated screen and keyboard. It is generally smaller in size than a desktop computer and larger than a notebook computer.</p>
+
+<p>• Palmtop Computer/Digital Diary /Notebook /PDAs: a hand-sized computer. Palmtops have no keyboard but the screen serves both as an input and output device. <a href="#">MORE</a></p>
+
+<br><br>
+<a href="TYPES.HTML">BACK</a><br>
+  </div>
+  
+  <div class="column side">
+    <h2>RELATED ARTICLES</h2>
+ <a href="TYPES.HTML">TYPES OF COMPUTERS</a><br>
+  <a href="uses.html">USES OF COMPUTER</a><br>
+  <a href="mini.html">WHAT IS MINI COMPUTERS?</a><br>
+  <a href="cprogram.html">C LANGUAGES</a><br>
+  <a href="character.html">CHARATERISTIC OF COMPUTER</a><br>
+  <a href="history.html">HISTORY OF COMPUTER</a><br>
+  <a href="internet.html">INTERNET</a><br>
+  <a href="virus.html">WHAT IS VIRUS</a><br>
+  </div>
+  <div class="column side">
+    </div>
+</div>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+</div>
+</body>
+</html>

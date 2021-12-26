@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css"
+	href="style.css">
+	<style type="text/css">
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color:white;
+}
+/* Style the header */
+.header {
+  background-image:url(hisbg.jpeg);
+  padding: 20px 50px;
+  text-align:center;
+  width:100%;
+  height:30vh;
+  color:#000000;
+  font-size: 30px;
+  
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color:black;
+  width:100%;
+  
+}
+
+/* Style the topnav links */
+.topnav a {
+  float:left;
+  display: block;
+  text-align: center;
+  padding: 20px 22px;
+  text-decoration: none;
+   color:white;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color:green;
+
+}
+
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  width: 25%;
+  color:tomato;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+  position: relative;
+  display:grid;
+  
+}
+
+/* Middle column */
+.column.middle {
+    width: 75%;
+  color:black;
+  background-color:#FFF0F5;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+.container{
+  max-width:100%;
+  margin:0 auto;
+  background:#f3f9f9;
+  font-size: 24px;
+  padding:25px;
+}
+.parallax{
+  background:url(history.jpg) no-repeat center;
+  background-size:cover;
+  background-attachment: fixed;
+  height:500px;
+width:100%;
+}
+
+
+	</style>
+</head>
+<body>
+<div class="header"><marquee direction=center behaivor=scroll scrollamount=10 loop=100x>
+   <h1>WELCOME TO THE COMPUTER WORLD</h1>
+  </marquee>
+</div>
+	<div class="topnav">
+  <a href="home.html">HOME</a>
+  
+  <a href="network.html">NETWORKING</a>
+  
+  <a href="gallary.html">GALLARY</a>
+   
+  <a href="aboutme.html">ABOUT US</a>
+  
+  <a href="login.html">MORE</a>
+</div>
+<br>
+
+<div class="container">
+
+<div class="row">
+  
+  <div class="column middle">
+    <h2 style="color:green;">  Fourth Generation Computer: </h2>
+    <p>An IC containing about 100 components is called LSI (Large Scale Integration) and the one, which has more than 1000 such components, is called as VLSI (Very Large Scale Integration). It uses large scale Integrated Circuits (LSIC) built on a single silicon chip called microprocessors. Due to the development of microprocessor it is possible to place computer’s central processing unit (CPU) on single chip. These computers are called microcomputers. Later very large scale Integrated Circuits (VLSIC) replaced LSICs. Thus the computer which was occupying a very large room in earlier days can now be placed on a table.<br>
+     The personal computer (PC) that you see in your school is a Fourth Generation Computer Main memory used fast semiconductors chips up to 4 M bits size. Hard disks were used as secondary memory. Keyboards, dot matrix printers etc. were developed. OS-such as MS-DOS, UNIX, Apple’s Macintosh were available. Object oriented language, C++ etc were developed. </p><br>
+
+
+    <div class="parallax">
+    
+  </div>
+
+    <p><b>Features:</b><br>
+
+1.  They used Microprocessor (VLSI) as their main switching element.<br>
+
+2. They are also called as micro computers or personal computers.<br>
+
+3.  Their size varies from desktop to laptop or palmtop.<br>
+
+4.  They have very high speed of processing; they are 100% accurate, reliable,   diligent and versatile.<br>
+
+5.  They have very large storage capacity.<br>
+
+Example: IBM PC, Apple-Macintosh etc. </p> <br>
+    
+      <a href="history.html">BACK</a><br><br>
+  
+      
+
+  </div>
+  
+  <div class="column side">
+  	<h2>RELATED ARTICLES</h2>
+  <a href="TYPES.HTML">TYPES OF COMPUTERS</a><br>
+  <a href="uses.html">USES OF COMPUTER</a><br>
+  <a href="mini.html">WHAT IS MINI COMPUTERS?</a><br>
+  <a href="cprogram.html">C LANGUAGES</a><br>
+  <a href="character.html">CHARATERISTIC OF COMPUTER</a><br>
+  <a href="history.html">HISTORY OF COMPUTER</a><br>
+  <a href="internet.html">INTERNET</a><br>
+  <a href="virus.html">WHAT IS VIRUS</a><br>
+  </div>
+  <div class="column side">
+    </div>
+</div>
+</div>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+</div>
+</body>
+</html>

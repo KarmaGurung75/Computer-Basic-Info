@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css"
+	href="style.css">
+	<style type="text/css">
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color:#00FFFF;
+}
+/* Style the header */
+.header {
+  background-image:url(virus.jpg);
+  padding: 20px 50px;
+  text-align:center;
+  width:100%;
+  height:30vh;
+  color: #F0FFFF;
+  font-size: 40px;
+  
+  
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color:black;
+  width:100%;
+  
+}
+
+/* Style the topnav links */
+.topnav a {
+  float:left;
+  display: block;
+  text-align: center;
+  padding: 20px 22px;
+  text-decoration: none;
+   color:white;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color:green;
+
+}
+
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  width: 25%;
+  color:tomato;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+  position: relative;
+  display:grid;
+  background-color:#7FFFD4;
+  
+}
+
+/* Middle column */
+.column.middle {
+  width: 75%;
+  color:black;
+  background-color:#FAFAD2;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+.container{
+  max-width:100%;
+  margin:0 auto;
+  background:#00FFFF;
+  font-size: 24px;
+  padding:25px;
+}
+.parallax{
+  background:url(virus1.jpg) ;
+  background-size:cover;
+  background-attachment: fixed;
+  height:500px;
+width:100%;
+}
+
+
+	</style>
+</head>
+<body>
+<div class="header">
+ <marquee direction=center behaivor=scroll scrollamount=10 loop=100x>
+   <h1>WELCOME TO THE COMPUTER WORLD</h1>
+  </marquee>
+  
+</div>
+	<div class="topnav">
+  <a href="home.html">HOME</a>
+  
+  <a href="network.html">NETWORKING</a>
+  
+  <a href="gallary.html">GALLARY</a>
+   
+  <a href="aboutme.html">ABOUT US</a>
+  
+  <a href="login.html">MORE</a>
+</div>
+<br>
+
+<div class="container">
+
+<div class="row">
+  
+  <div class="column middle">
+    <h2 style="color:green;">What is a Computer Virus?</h2>
+    <p>A computer virus is a malicious program that self-replicates by copying itself to another program. In other words, the computer virus spreads by itself into other executable code or documents. The purpose of creating a computer virus is to infect vulnerable systems, gain admin control and steal user sensitive data. Hackers design computer viruses with malicious intent and prey on online users by tricking them.<br><br>
+
+One of the ideal methods by which viruses spread is through emails – opening the attachment in the email, visiting an infected website, clicking on an executable file, or viewing an infected advertisement can cause the virus to spread to your system. Besides that, infections also spread while connecting with already infected removable storage devices, such as USB drives.<br><br>
+
+It is quite easy and simple for the viruses to sneak into a computer by dodging the defense systems. A successful breach can cause serious issues for the user such as infecting other resources or system software, modifying or deleting key functions or applications and copy/delete or encrypt data. </p><br>
+    <p> </p><br>
+
+     <h2 style="color:green;">How does a computer virus operate?</h2>
+           <p>A computer virus operates in two ways. The first kind, as soon as it lands on a new computer, begins to replicate. The second type plays dead until the trigger kick starts the malicious code. In other words, the infected program needs to run to be executed. Therefore, it is highly significant to stay shielded by installing a robust antivirus program.<br><br>
+           Of late, the sophisticated computer virus comes with evasion capabilities that help in bypassing antivirus software and other advanced levels of defenses. The primary purpose can involve stealing passwords or data, logging keystrokes, corrupting files, and even taking control of the machine.<br><br>
+
+Subsequently, the polymorphic malware development in recent times enables the viruses to change its code as it spreads dynamically. This has made the virus detection and identification very challenging.</p><br><br>
+
+             <h2 style="color:green;">The History of Computer Virus</h2>
+            <p>Robert Thomas, an engineer at BBN Technologies developed the first known computer virus in the year 1971. The first virus was christened as the “Creeper” virus, and the experimental program carried out by Thomas infected mainframes on ARPANET. The teletype message displayed on the screens read, “I’m the creeper: Catch me if you can.”<br><br>
+
+But the original wild computer virus, probably the first one to be tracked down in the history of computer viruses was “Elk Cloner.” The Elk Cloner infected Apple II operating systems through floppy disks. The message displayed on infected Apple Computers was a humorous one. The virus was developed by Richard Skrenta, a teenager in the year 1982. Even though the computer viruses were designed as a prank, it also enlightened how a malicious program could be installed in a computer’s memory and stop users from removing the program.<br><br>
+
+It was Fred Cohen, who coined the term “computer virus” and it was after a year in 1983. The term came into being when he attempted to write an academic paper titled “Computer Viruses – Theory and Experiments” detailing about the malicious programs in his work.</p><br><br>
+
+                <h2 style="color:green;">Types of Computer Viruses.</h2>
+             <p>A computer virus is one type of malware that inserts its virus code to multiply itself by altering the programs and applications. The computer gets infected through the replication of malicious code.
+
+Computer viruses come in different forms to infect the system in different ways. Some of the most common viruses are</p>
+             <p><b>Boot Sector Virus</b> – This type of virus infects the master boot record and it is challenging and a complex task to remove this virus and often requires the system to be formatted. Mostly it spreads through removable media.</p>
+                          <p><b>Direct Action Virus</b> – This is also called non-resident virus, it gets installed or stays hidden in the computer memory. It stays attached to the specific type of files that it infect. It does not affect the user experience and system’s performance.<br><br>
+
+<b>Resident Virus</b> – Unlike direct action viruses, resident viruses get installed on the computer. It is difficult to identify the virus and it is even difficult to remove a resident virus.<br><br>
+The Resident virus implants itself in the memory of a computer. Basically, the original virus program is not required to infect new files or applications. Even when the original virus is deleted, the version stored in memory can be activated. This happens when the computer OS loads certain applications or functions. The resident viruses are troublesome due to the reason they can run unnoticed by antivirus and antimalware software by hiding in the system’s RAM.<br><br>
+
+<b>Multipartite Virus</b> – This type of virus spreads through multiple ways. It infects both the boot sector and executable files at the same time.<br><br>
+
+<b>Polymorphic Virus</b> – These type of viruses are difficult to identify with a traditional anti-virus program. This is because the polymorphic viruses alters its signature pattern whenever it replicates.<br><br>
+More and more cybercriminals are depending on the polymorphic virus. It is a malware type which has the ability to change or mutate its underlying code without changing its basic functions or features. This helps the virus on a computer or network to evade detection from many antimalware and threat detection products.<br><br>
+
+Since virus removal programs depend on identifying signatures of malware, these viruses are carefully designed to escape detection and identification. When a security software detects a polymorphic virus, the virus modifies itself thereby, it is no longer detectable using the previous signature.<br><br>
+
+<b>Overwrite Virus</b> – This type of virus deletes all the files that it infects. The only possible mechanism to remove is to delete the infected files and the end-user has to lose all the contents in it. Identifying the overwrite virus is difficult as it spreads through emails.<br><br>
+The virus design purpose tends to vary and Overwrite Viruses are predominantly designed to destroy a file or application’s data. As the name says it all, the virus after attacking the computer starts overwriting files with its own code. Not to be taken lightly, these viruses are more capable of targeting specific files or applications or systematically overwrite all files on an infected device.<br><br>
+
+On the flipside, the overwrite virus is capable of installing a new code in the files or applications which programs them to spread the virus to additional files, applications, and systems.<br><br>
+
+<b>Spacefiller Virus</b> – This is also called “Cavity Viruses”. This is called so as they fill up the empty spaces between the code and hence does not cause any damage to the file.<br><br>
+
+<b>#Macro viruses:</b>
+As the name suggests, the macro viruses particularly target macro language commands in applications like Microsoft Word. The same is implied on other programs too.<br><br>
+
+In MS Word, the macros are keystrokes that are embedded in the documents or saved sequences for commands. The macro viruses are designed to add their malicious code to the genuine macro sequences in a Word file. However, as the years went by, Microsoft Word witnessed disabling of macros by default in more recent versions. Thus, the cybercriminals started to use social engineering schemes to target users. In the process, they trick the user and enable macros to launch the virus.<br><br>
+
+Since macro viruses are making a come back in the recent years, Microsoft quickly retaliated by adding a new feature in Office 2016. The feature enables security managers to selectively enable macro use. As a matter of fact, it can be enabled for trusted workflows and blocked if required across the organization.</p><br><br>
+
+    <div class="parallax">
+    
+  </div>
+
+    <h2 style="color:green;">How To Avoid Email Viruses And Worms</h2>
+     <p>Here are some simple rules you can follow to avoid being infected by viruses through email.<br><br>
+
+<b>Do’s</b><br>
+1. Use a professional, email service such as Runbox. Subscription services provide higher levels of security and support.<br>
+2. Make sure that your Runbox virus filter is activated.<br>
+3. Use the Webmail interface at www.runbox.com to read your email, or don’t download all your email to an email client unseen. Screen your email first, and delete suspicious-looking and unwanted messages before downloading the legitimate email to your local email client.<br>
+4. Make sure your computer has updated anti-virus software running locally. Automatic updates are essential for effective virus protection. Combined with server-side scanning, you now have two layers of security.<br>
+5. Disable message preview in your email client, especially on Windows platforms. Otherwise, malicious programs attached to incoming messages may execute automatically and infect your computer.<br>
+6. Ignore or delete messages with attachments appearing to be sent from official Runbox email addresses. Runbox rarely sends email to our users, aside from replies to inquiries and payment reminders. We practically never send an email with attachments to users.<br>
+7. Take caution when opening graphics and media attachments, as viruses can be disguised as such files.<br>
+8. Maintain several independent email accounts. If a virus infects your only business email address, you’ll be in trouble. Also, keep backups of your most important email and files separately.<br>
+9. If any valid message headers of a virus-email indicate what server the message was sent from, contact the service in question and file a formal complaint.<br><br>
+
+<b>Don’ts</b><br>
+1. Do not open an email attachment unless you were expecting it and know whom it’s from.<br>
+2. Do not open any unsolicited executable files, documents, spreadsheets, etc.<br>
+3. Avoid downloading executable or documents from the internet, as these are often used to spread viruses.<br>
+4. Never open files with a double file extension, e.g. filename.txt.vbs. This is a typical sign of a virus program.<br>
+5. Do not send or forward any files that you haven’t virus-checked first.<br>
+6. Viruses and spam<br>
+7. Virus-makers and spammers often cooperate in devious schemes to send as much spam as possible as efficiently as possible. They create viruses that infect vulnerable computers around the world and turn them into spam-generating “robots”. The infected computers then send massive amounts of spam, unbeknownst to the computer owner.<br><br>
+
+Such virus-generated email is often forged to appear to be sent from legitimate addresses collected from address books on infected computers. The viruses also use such data, combined with lists of common (user) names, to send spam to huge numbers of recipients. Many of those messages will be returned as undeliverable, and arrive in innocent and unknowing email users’ Inboxes. If this happens to you, use the trainable spam filter to catch those messages.<br><br>
+
+<h2 style="color:green;">How To Get Rid Of Computer Virus</h2>
+
+Never the neglect to take action on a computer virus residing in your system. There are chances that you might end up losing important files, programs, and folders. In some cases, the virus damages the system hardware too. Thereby, it becomes mandatory to have an effective anti-virus software installed on your computer to steer clear of all such threats.<br><br>
+
+<b>Signs of Virus Infection</b><br>
+
+It is vital for any computer user to be aware of these warning signs –<br>
+
+• Slower system performance<br>
+• Pop-ups bombarding the screen<br>
+• Programs running on their own<br>
+• Files multiplying/duplicating on their own<br>
+• New files or programs in the computer<br>
+• Files, folders or programs getting deleted or corrupted<br>
+• The sound of a hard drive<br><br>
+
+If you come across any of these above-mentioned signs then there are chances that your computer is infected by a virus or malware. Not to delay, immediately stop all the commands and download an antivirus software. If you are unsure what to do, get the assistance of an authorized computer personnel. If you are confident enough, start investigating on your own by following the below mentioned step-by-step procedures.<br><br>
+
+<b>#Safe Mode</b><br>
+Boot the system and press F8 for Advanced Boot Options menu. Select Safe Mode with Networking and press Enter. You might need to keep repeatedly pressing to get on to the screen.<br>
+
+Working on the Safe Mode helps handle nefarious files as they’re not actually running or active. Last but not the least the internet spreads the infection, so remove the connection.<br><br>
+
+
+<b>#Delete Temporary Files</b><br>
+In order to free the disk space, delete temporary files before starting to run the virus scan. This approach helps speed up the virus scanning process. The Disk Cleanup tool helps in deleting your temporary files on the computer.<br><br>
+
+Here is how you got to go about accomplishing it – Start menu then select All Programs, now you click on Accessories, System Tools, and then click Disk Cleanup.<br><br>
+
+
+<b>#Download Virus/Malware Scanner</b><br>
+If you are under the impression that a virus scanner cleanups the bad stuff from your computer then sadly, that’s not true! It helps in eliminating standard infections and not sufficient to remove the latest harmful infections. The virus/malware scanner helps to narrow down on the issue, so, download it now. In order to better protect go for a real-time anti-virus program, since it automatically keeps checking in the background for viruses.<br><br>
+
+P.S: Don’t install more than one real-time anti-virus program. If you do so, your system will start to behave weirdly.<br><br>
+
+
+<b>#Run a Virus/Malware Scan</b><br>
+Download the virus/malware scanner using the internet. Once you have finished downloading the virus scanner, disconnect it for security and safety reasons. After successful download complete the installation procedures of the Virus/Malware scanner, then start running your on-demand scanner first and thereafter run your real-time scanner.<br><br>
+
+The reason for running both is that one of them will effectively eliminate your computer virus or malware.<br><br>
+
+
+<b>#Reinstall the Software or Damaged Files</b><br>
+Once the virus removal from your computer is complete, go ahead and reinstall the files and programs that were damaged by the virus or malware. Make use of the backups for re-installation.<br><br>
+
+In simple, do the backups regularly and stay protected.</p><br><br>
+  </div>
+  
+  <div class="column side">
+  	<h2>RELATED ARTICLES</h2>
+  <a href="TYPES.HTML">TYPES OF COMPUTERS</a><br>
+  <a href="uses.html">USES OF COMPUTER</a><br>
+  <a href="mini.html">WHAT IS MINI COMPUTERS?</a><br>
+  <a href="cprogram.html">C LANGUAGES</a><br>
+  <a href="character.html">CHARATERISTIC OF COMPUTER</a><br>
+  <a href="history.html">HISTORY OF COMPUTER</a><br>
+  <a href="internet.html">INTERNET</a><br>
+  <a href="virus.html">WHAT IS VIRUS</a><br>
+  </div>
+  <div class="column side">
+    </div>
+</div>
+</div>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+</div>
+</body>
+</html>

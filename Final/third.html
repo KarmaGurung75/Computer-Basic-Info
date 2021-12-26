@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css"
+	href="style.css">
+	<style type="text/css">
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color:white;
+}
+/* Style the header */
+.header {
+  background-image:url(hisbg.jpeg);
+  padding: 20px 50px;
+  text-align:center;
+  width:100%;
+  height:30vh;
+  color:#000000;
+  font-size: 30px;
+  
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color:black;
+  width:100%;
+  
+}
+
+/* Style the topnav links */
+.topnav a {
+  float:left;
+  display: block;
+  text-align: center;
+  padding: 20px 22px;
+  text-decoration: none;
+   color:white;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color:green;
+
+}
+
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  width: 25%;
+  color:tomato;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+  position: relative;
+  display:grid;
+  
+}
+
+/* Middle column */
+.column.middle {
+    width: 75%;
+  color:black;
+  background-color:#FFF0F5;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+.container{
+  max-width:100%;
+  margin:0 auto;
+  background:#f3f9f9;
+  font-size: 24px;
+  padding:25px;
+}
+.parallax{
+  background:url(history.jpg) no-repeat center;
+  background-size:cover;
+  background-attachment: fixed;
+  height:500px;
+width:100%;
+}
+
+
+	</style>
+</head>
+<body>
+<div class="header"><marquee direction=center behaivor=scroll scrollamount=10 loop=100x>
+   <h1>WELCOME TO THE COMPUTER WORLD</h1>
+  </marquee>
+  
+</div>
+	<div class="topnav">
+ <a href="home.html">HOME</a>
+  
+  <a href="network.html">NETWORKING</a>
+  
+  <a href="gallary.html">GALLARY</a>
+   
+  <a href="aboutme.html">ABOUT US</a>
+  
+  <a href="login.html">MORE</a>
+</div>
+<br>
+
+<div class="container">
+
+<div class="row">
+  
+  <div class="column middle">
+    <h2 style="color:green;"> Third Generation Computer (1964-1977) : </h2>
+    <p>By the development of a small chip consisting of the capacity of the 300 transistors. These ICs are popularly known as Chips. A single IC has many transistors, registers and capacitors built on a single thin slice of silicon. So it is quite obvious that the size of the computer got further reduced. Some of the computers developed during this period were IBM-360, ICL-1900, IBM-370, and VAX-750. Higher level language such as BASIC (Beginners All purpose Symbolic Instruction Code) was developed during this period.  Computers of this generation were small in size, low cost, large memory and processing speed is very high. Very soon ICs Were replaced by LSI (Large Scale Integration), which consisted about 100 components. An IC containing about 100 components is called LSI. </p><br>
+
+
+    <div class="parallax">
+    
+  </div>
+
+    <p><b>Features:</b><br>
+
+1. They used Integrated Circuit (IC) chips in place of the transistors.<br>
+
+2. Semi conductor memory devices were used.<br>
+
+3.  The size was greatly reduced, the speed of processing was high, they were   more accurate and reliable.<br>
+
+4.  Large Scale Integration (LSI) and Very Large Scale Integration (VLSI) were also developed.<br>
+
+5.  The mini computers were introduced in this generation.<br>
+
+6. They used high level language for programming.<br>
+
+Example: IBM 360, IBM 370 etc. </p> <br>
+    
+      <a href="history.html">BACK</a><br><br>
+  
+      
+
+  </div>
+  
+  <div class="column side">
+  	<h2>RELATED ARTICLES</h2>
+  <a href="TYPES.HTML">TYPES OF COMPUTERS</a><br>
+  <a href="uses.html">USES OF COMPUTER</a><br>
+  <a href="mini.html">WHAT IS MINI COMPUTERS?</a><br>
+  <a href="cprogram.html">C LANGUAGES</a><br>
+  <a href="character.html">CHARATERISTIC OF COMPUTER</a><br>
+  <a href="history.html">HISTORY OF COMPUTER</a><br>
+  <a href="internet.html">INTERNET</a><br>
+  <a href="virus.html">WHAT IS VIRUS</a><br>
+  </div>
+  <div class="column side">
+    </div>
+</div>
+</div>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+</div>
+</body>
+</html>

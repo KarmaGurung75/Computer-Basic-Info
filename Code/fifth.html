@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css"
+	href="style.css">
+	<style type="text/css">
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color:white;
+}
+/* Style the header */
+.header {
+  background-image:url(hisbg.jpeg);
+  padding: 20px 50px;
+  text-align:center;
+  width:100%;
+  height:30vh;
+  color:#000000;
+  font-size: 30px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color:black;
+  width:100%;
+  
+}
+
+/* Style the topnav links */
+.topnav a {
+  float:left;
+  display: block;
+  text-align: center;
+  padding: 20px 22px;
+  text-decoration: none;
+   color:white;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color:green;
+
+}
+
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  width: 25%;
+  color:tomato;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+  position: relative;
+  display:grid;
+  
+}
+
+/* Middle column */
+.column.middle {
+  width: 75%;
+  color:black;
+  background-color:#FFF0F5;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+.container{
+  max-width:100%;
+  margin:0 auto;
+  background:#f3f9f9;
+  font-size: 24px;
+  padding:25px;
+}
+.parallax{
+  background:url(history.jpg) no-repeat center;
+  background-size:cover;
+  background-attachment: fixed;
+  height:500px;
+width:100%;
+}
+
+
+	</style>
+</head>
+<body>
+<div class="header"><marquee direction=center behaivor=scroll scrollamount=10 loop=100x>
+   <h1>WELCOME TO THE COMPUTER WORLD</h1>
+  </marquee>
+</div>
+	<div class="topnav">
+  <a href="home.html">HOME</a>
+  
+  <a href="network.html">NETWORKING</a>
+  
+  <a href="gallary.html">GALLARY</a>
+   
+  <a href="aboutme.html">ABOUT US</a>
+  
+  <a href="login.html">MORE</a>
+</div>
+<br>
+
+<div class="container">
+
+<div class="row">
+  
+  <div class="column middle">
+    <h2 style="color:green;">Fifth Generation Computer (1991- continued) :</h2>
+    <p>5th generation computers use ULSI (Ultra-Large Scale Integration) chips. Millions of transistors are placed in a single IC in ULSI chips. 64 bit microprocessors have been developed during this period. Data flow & EPIC architecture of these processors have been developed. RISC & CISC, both types of designs are used in modern processors. Memory chips and flash memory up to 1 GB, hard disks up to 600 GB & optical disks up to 50 GB have been developed. fifth generation digital computer will be Artificial intelligence.<br>
+     The personal computer (PC) that you see in your school is a Fourth Generation Computer Main memory used fast semiconductors chips up to 4 M bits size. Hard disks were used as secondary memory. Keyboards, dot matrix printers etc. were developed. OS-such as MS-DOS, UNIX, Apple’s Macintosh were available. Object oriented language, C++ etc were developed. </p><br>
+
+
+    <div class="parallax">
+    
+  </div>
+
+    <p><b>Features:</b><br>
+
+1.  These computerss will be fully parallel processing capacity.<br>
+
+2.  Computers will be intelligent and knowledge base because of AI.<br>
+
+3.  Computer will use super conductor memory like bio-chips and Gallium Arsenide as memory device so that, the speed will be very high.<br>
+
+4.  Instead of HILL (High Level Language), natural languages like English, japenses etc. will be used for giving instruction to the computer and making computer program. <br>
+
+5.  The language of operating system eill be PROLOG, LISP etc.<br>
+</p> <br>
+    
+    <h2 style="color:green;">Artificial Intelligence (AI):</h2>
+
+  <p>Artificial Intelligence (AI) is the area of computer science focusing on creating machines that can engage on behaviours that humans consider intelligent. The ability to create intelligent machines has intrigued humans since ancient times and today with the advent of the computer and 50 years of research into AI programming techniques, the dream of smart machines is becoming a reliaty. Researchers are creating systems which can imitate human thought, understand speech, beat the best human chess player and countless other feats never before posssibe.  </p>
+
+
+      <a href="history.html">BACK</a><br><br>
+  
+      
+
+  </div>
+  
+  <div class="column side">
+  	<h2>RELATED ARTICLES</h2>
+  <a href="TYPES.HTML">TYPES OF COMPUTERS</a><br>
+  <a href="uses.html">USES OF COMPUTER</a><br>
+  <a href="mini.html">WHAT IS MINI COMPUTERS?</a><br>
+  <a href="cprogram.html">C LANGUAGES</a><br>
+  <a href="character.html">CHARATERISTIC OF COMPUTER</a><br>
+  <a href="history.html">HISTORY OF COMPUTER</a><br>
+  <a href="internet.html">INTERNET</a><br>
+  <a href="virus.html">WHAT IS VIRUS</a><br>
+  </div>
+  <div class="column side">
+    </div>
+</div>
+</div>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+</div>
+</body>
+</html>
